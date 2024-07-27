@@ -4,6 +4,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* wrapper */
+
 .wrapper {
     background: #fff;
     display: flex;
@@ -99,4 +101,46 @@ body {
     line-height: 24px;
 }
 
+/* main content */
 
+/* my info */
+
+.my-profession {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21429;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.22222;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #595959;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+/* my projects */
+
+.my-projects-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.22727;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
