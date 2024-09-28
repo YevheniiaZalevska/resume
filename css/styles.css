@@ -4,12 +4,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* wrapper */
 
 .wrapper {
     background: #fff;
     display: flex;
     flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* main content */
@@ -209,4 +216,122 @@ body {
 
 .work-experience-period-separator {
     color: #000;
+}
+
+.work-experience-duties-list {
+    padding-left: 16px;
+}
+
+.work-experience-duties-items {
+    color: #595959;
+    max-width: 526px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.work-experience-container {
+    margin-bottom: 12px;
+}
+
+.work-experience-section {
+    margin-bottom: 40px;
+}
+
+/* Education */
+
+.education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-university {
+    color: #6d9bf5;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.education-faculty {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.education-period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.education-period-separator {
+    color: #000;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .main-content {
+        padding: 40px 40px 40px 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 250px;
+    }
+
+    .my-photo {
+        width: 250px;
+    }
+
+    .sidebar-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .my-photo {
+        width: 200px;
+    }
+        
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .my-name {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .my-photo {
+        width: 100%;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
 }
