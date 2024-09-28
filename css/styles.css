@@ -285,6 +285,10 @@ ol, ul {
     .main-content {
         max-width: 960px;
     }
+
+    .wrapper {
+        max-width: 960px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -305,6 +309,10 @@ ol, ul {
     }
 
     body {
+        max-width: 800px;
+    }
+
+    .wrapper {
         max-width: 800px;
     }
 }
@@ -330,11 +338,16 @@ ol, ul {
     .my-name {
         font-size: 28px;
     }
+
+    .wrapper {
+        max-width: 600px;
+    }
 }
 
 @media screen and (max-width: 510px) {
     .wrapper {
         flex-direction: column;
+        max-width: 510px;
     }
 
     .my-photo {
@@ -342,7 +355,7 @@ ol, ul {
     }
     
     .sidebar {
-        width: 100%;
+        max-width: 510px;
     }
 
     .main-content {
