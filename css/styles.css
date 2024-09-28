@@ -279,10 +279,11 @@ ol, ul {
 @media screen and (max-width: 960px) {
     body {
         padding: 20px 20px 20px 20px;
+        max-width: 960px;
     }
     
     .main-content {
-        padding: 40px 40px 40px 40px;
+        max-width: 960px;
     }
 }
 
@@ -298,11 +299,20 @@ ol, ul {
     .sidebar-content {
         padding: 20px 20px 20px 20px;
     }
+
+    .main-content {
+        max-width: 800px;
+    }
+
+    body {
+        max-width: 800px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     body {
         padding: 0;
+        max-width: 600px;
     }
 
     .my-photo {
@@ -314,7 +324,7 @@ ol, ul {
     }
 
     .main-content {
-        padding: 20px 20px 20px 20px;
+        max-width: 600px;
     }
 
     .my-name {
@@ -333,5 +343,13 @@ ol, ul {
     
     .sidebar {
         width: 100%;
+    }
+
+    .main-content {
+        max-width: 510px;
+    }
+
+    body {
+        max-width: 510px;
     }
 }
