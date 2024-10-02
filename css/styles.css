@@ -184,7 +184,7 @@ ol, ul {
 
 /* Work Experience */
 
-/* .work-experience-title {
+.work-experience-title {
     color: #000;
     font-size: 22px;
     font-weight: 700;
@@ -237,7 +237,7 @@ ol, ul {
 
 .work-experience-section {
     margin-bottom: 40px;
-} */
+}
 
 /* Education */
 
@@ -277,11 +277,16 @@ ol, ul {
 }
 
 .education-list {
-    padding-left: 16px;
+    padding-left: 2px;
+    list-style: none;
 }
 
 .education-section {
     margin-bottom: 40px;
+}
+
+.education-items {
+    padding-bottom: 8px;
 }
 
 /* language */
