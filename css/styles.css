@@ -46,6 +46,29 @@ ol, ul {
     box-sizing: border-box;
 }
 
+/* Social networks */
+
+.social-networks-container {
+    margin-bottom: 40px;
+}
+
+.social-networks-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    color: #161D2A;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.social-networks-links {
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
 /* contacts */
 
 .contacts-title {
