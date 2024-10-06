@@ -48,8 +48,21 @@ ol, ul {
 
 /* Social networks */
 
-.social-networks-container {
+.social-networks-section {
     margin-bottom: 40px;
+}
+
+.social-networks-container {
+    display: flex;
+    /* box-sizing: border-box; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .social-networks-title {
@@ -58,15 +71,15 @@ ol, ul {
     line-height: normal;
     color: #161D2A;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .social-networks-links {
-    color: #2979FF;
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 /* contacts */
