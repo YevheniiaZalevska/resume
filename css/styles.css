@@ -146,6 +146,73 @@ ol, ul {
 
 /* main content */
 
+/* Cover letter */
+
+/* .main_content {
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px 90px;
+} */
+
+/* About styles */
+.about {
+    margin-bottom: 40px;
+}
+
+.about_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-cover {
+    display: block;
+
+    min-width: 169px;
+    margin-bottom: 10px;
+    padding: 16px 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(30, 41, 57, 0.035);
+    color: #6D9BF5;
+    transition: background-color 250ms ease, color 250ms ease;
+}
+
+.about-cover:hover,
+.about-cover:focus {
+    color: black;
+    background-color: #E0EBFE;
+}
+
+.about_description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-align: justify;
+    text-indent: 2em;
+}
+
 /* my info */
 
 .my-profession {
@@ -397,5 +464,23 @@ ol, ul {
 
     .sidebar {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_name{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_name {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about_name {
+        font-size: 18px;
     }
 }
